@@ -79,3 +79,14 @@ h2{margin:0 0 6px;font-size:28px}
 .hero-slides{position:absolute;inset:0;background-size:cover;background-position:center;transition:opacity 1.2s ease, background-image 0.8s ease}
 .hero-slides::after{content:"";position:absolute;inset:0;box-shadow:inset 0 -160px 160px rgba(0,0,0,0.65)}
 .hero .overlay{position:absolute;inset:0;background:linear-gradient(180deg, rgba(0,0,0,0.55), rgba(0,0,0,0.72));}
+
+/* === Logo adjustments v7 === */
+.logo img, .hero-logo{
+  max-height: 120px !important;
+  width: auto !important;
+}
+
+
+/* v7 updates: larger white logos without text */
+.logo{height:84px}
+.hero-logo{height:128px}
