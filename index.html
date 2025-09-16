@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>High Standardz — Marine • Automotive • Aviation</title>
+  <meta name="description" content="High Standardz — Jake Cohen. Premium detailing and full management for jets, cars, trucks and boats." />
+  <link rel="icon" href="assets/high-standardz-logo.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">
+        <img src="assets/high-standardz-logo.png" alt="High Standardz logo" class="logo">
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a class="phone-cta" href="tel:+17729991751">772-999-1751</a>
+      </nav>
+      <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="nav">☰</button>
+    </div>
+  </header>
+
+  <main>
+    
+    <section id="home" class="hero">
+      <div class="hero-slides" data-slides='[\"assets/hero-sportfish.jpg\", \"assets/hero-jet.jpg\", \"assets/hero-center-console.jpg\", \"assets/hero-truck.jpg\", \"assets/hero-car-1.jpg\", \"assets/hero-car-2.jpg\"]'></div>
+      <div class="overlay"></div>
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <img src="assets/high-standardz-logo.png" alt="HS logo" class="hero-logo">
+          <h1>All Services. One Standard.</h1>
+          <p class="lead">Marine • Automotive • Aviation — detailing, refits, electronics, upholstery, bottom painting, concierge & full management.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#contact">Request Estimate</a>
+            <a class="btn ghost" href="#services">Explore Services</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="services" class="services">
+      <div class="container">
+        <h2>Our Services</h2>
+        <p class="section-lead"><strong>We provide all services</strong> across Marine, Automotive, and Aviation — detailing, bottom painting, decking, electronics, upholstery, concierge & full project management.</p>
+        <div class="services-grid">
+          <article class="service"><h3>Aircraft & Aviation</h3><p>Interior detailing, exterior finishes, avionics support and concierge services.</p></article>
+          <article class="service"><h3>Marine — Sportfish & Center Consoles</h3><p>Teak, paint, electronics, anti-fouling and full refits.</p></article>
+          <article class="service"><h3>Automotive — Exotic & Luxury</h3><p>Ceramic coatings, paint correction, custom audio and detailing.</p></article>
+          <article class="service"><h3>Trucks & Custom Builds</h3><p>Lifted trucks, custom interiors, lighting and suspension coordination.</p></article>
+          <article class="service"><h3>Upholstery & Canvas</h3><p>Marine-grade materials and precise custom work.</p></article>
+          <article class="service"><h3>Concierge & Management</h3><p>Scheduling, logistics, and end-to-end project oversight.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+      <div class="container">
+        <h2>Gallery</h2>
+        <p class="section-lead">Selected projects and finishes.</p>
+        
+        <div class="gallery-grid">
+          <img src="assets/gallery-center-console.jpg" alt="Center Console Fishing Boat">
+          <img src="assets/gallery-sportfish.jpg" alt="Sportfish Yacht">
+          <img src="assets/gallery-sportfish-2.jpg" alt="Sportfish Yacht (run-by)">
+          <img src="assets/gallery-sportfish-deck.jpg" alt="Sportfish Teak Deck">
+          <img src="assets/gallery-lifted-truck.jpg" alt="Lifted Truck">
+          <img src="assets/gallery-car-1.jpg" alt="Exotic Sports Car">
+          <img src="assets/gallery-car-2.jpg" alt="Exotic Sports Car by the ocean">
+          <img src="assets/gallery-car-interior.jpg" alt="Lamborghini Interior">
+          <img src="assets/gallery-jet-exterior.jpg" alt="Private Jet Exterior">
+          <img src="assets/gallery-jet-interior.jpg" alt="Private Jet Interior">
+        </div>
+
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container about-inner">
+        <div>
+          <h2>About Jake Cohen</h2>
+          <p>Founder of High Standardz — combining craftsmanship, premium materials, and project management to serve clients across marine, automotive, and aviation sectors.</p>
+        </div>
+        <div class="contact-card">
+          <h3>Contact</h3>
+          <p><strong>Jake Cohen</strong></p>
+          <p>Phone: <a href="tel:+17729991751">772-999-1751</a></p>
+          <p>Services: Detailing · Bottom Painting · Decking · Electronics · Upholstery · Concierge</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Request an Estimate</h2>
+        <p class="section-lead">Tell us about your project and we'll get back to you quickly.</p>
+        <form id="contactForm" class="contact-form" novalidate>
+          <div class="form-row"><label for="name">Name</label><input id="name" name="name" type="text" required placeholder="Your name"></div>
+          <div class="form-row"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" value="772-999-1751" required placeholder="Phone number"></div>
+          <div class="form-row"><label for="email">Email</label><input id="email" name="email" type="email" placeholder="you@example.com"></div>
+          <div class="form-row"><label for="message">Project Details</label><textarea id="message" name="message" rows="5" placeholder="Describe your project..."></textarea></div>
+          <div class="form-actions"><button type="submit" class="btn primary">Send Request</button><button type="reset" class="btn ghost">Reset</button></div>
+          <p class="form-note">This demo form uses client-side validation only. Hook it up to Formspree or your backend to receive messages.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p>© <span id="year"></span> High Standardz — Jake Cohen</p>
+        <p>Phone: <a href="tel:+17729991751">772-999-1751</a></p>
+      </div>
+      <div class="footer-meta"><p>Marine · Automotive · Aviation</p></div>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
