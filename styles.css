@@ -98,3 +98,12 @@ h2{margin:0 0 6px;font-size:28px}
   display:block;
   margin:0 auto 20px;
 }
+
+
+/* v13: logo sizing + transparency */
+.logo{height:96px}
+.hero-logo{height:176px}
+@media (max-width:900px){
+  .logo{height:72px}
+  .hero-logo{height:132px}
+}
