@@ -90,3 +90,11 @@ h2{margin:0 0 6px;font-size:28px}
 /* v7 updates: larger white logos without text */
 .logo{height:84px}
 .hero-logo{height:128px}
+
+
+/* Glow adjustments for hero logo */
+.hero-logo{
+  height:148px;
+  display:block;
+  margin:0 auto 20px;
+}
