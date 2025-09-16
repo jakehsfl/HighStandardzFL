@@ -107,3 +107,20 @@ h2{margin:0 0 6px;font-size:28px}
   .logo{height:72px}
   .hero-logo{height:132px}
 }
+
+
+/* v14: Enlarged logo sizes */
+.logo {
+  height: 112px;
+}
+.hero-logo {
+  height: 240px;
+}
+@media (max-width: 900px) {
+  .logo {
+    height: 84px;
+  }
+  .hero-logo {
+    height: 160px;
+  }
+}
